@@ -37,3 +37,15 @@ variable "spaces_secret_key" {
   default     = ""
   description = "The secret key for the DigitalOcean spaces"
 }
+
+variable "droplet_aio_size" {
+  type        = string
+  default     = ""
+  description = "Size of the droplet specification for the all-in-one prototype"
+}
+
+variable "container_registry_tier" {
+  type        = string
+  default     = ""
+  description = "Size of the droplet specification for the all-in-one prototype"
+}

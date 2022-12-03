@@ -4,5 +4,7 @@ resource "digitalocean_project" "project" {
   purpose     = "Education"
   resources = [
     digitalocean_domain.default.urn,
+    digitalocean_droplet.aio.urn,
+    #digitalocean_container_registry.default.urn,
   ]
 }

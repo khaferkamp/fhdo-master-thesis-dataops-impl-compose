@@ -1,0 +1,6 @@
+.env
+.env.*
+
+# services data
+gitlab/*
+minio/*
