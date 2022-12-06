@@ -2,5 +2,5 @@
 .env.*
 
 # services data
-gitlab/*
-minio/*
+data/gitlab/*
+data/minio/*
