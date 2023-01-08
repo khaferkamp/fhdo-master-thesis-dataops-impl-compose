@@ -4,3 +4,5 @@
 # services data
 data/gitlab/*
 data/minio/*
+
+acme.json
